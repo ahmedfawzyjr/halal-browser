@@ -1,0 +1,59 @@
+{
+  "name": "kids",
+  "display_name": "وضع الأطفال - Kids Mode",
+  "age_range": "0-12",
+  "icon": "👶",
+  "description": "Maximum protection for children with strict filtering and time limits",
+  "rules": {
+    "block_all_images": false,
+    "block_all_videos": true,
+    "nsfw_threshold": 0.3,
+    "whitelist_only": true,
+    "allow_blur": false,
+    "force_safe_search": true,
+    "block_ads": true,
+    "block_popups": true,
+    "time_limits": {
+      "enabled": true,
+      "daily_minutes": 60,
+      "allowed_hours": [
+        "14:00-17:00",
+        "19:00-20:00"
+      ],
+      "weekend_extra_minutes": 30
+    },
+    "allowed_categories": [
+      "islamic",
+      "education",
+      "kids"
+    ],
+    "blocked_categories": [
+      "adult",
+      "gambling",
+      "alcohol",
+      "dating",
+      "social_media",
+      "gaming"
+    ],
+    "parental_controls": {
+      "enabled": true,
+      "log_all_activity": true,
+      "send_alerts": true,
+      "require_password": true,
+      "block_downloads": true,
+      "block_extensions": true
+    },
+    "content_restrictions": {
+      "max_video_length": 600,
+      "block_comments": true,
+      "block_chat": true,
+      "block_user_uploads": true
+    }
+  },
+  "ui_settings": {
+    "theme": "kids",
+    "show_islamic_widgets": true,
+    "show_prayer_times": true,
+    "homepage": "https://pbskids.org"
+  }
+}

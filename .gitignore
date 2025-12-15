@@ -1,0 +1,76 @@
+# Halal Browser - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# AI Models (too large for git)
+ai-service/models/*.onnx
+ai-service/models/*.pb
+ai-service/models/*.h5
+ai-service/cache/
+
+# Chromium (too large for git)
+chromium-core/src/
+chromium-core/out/
+depot_tools/
+
+# Logs
+logs/
+*.log
+
+# Test data
+tests/data/*.jpg
+tests/data/*.png
+tests/data/*.mp4
+tests/data/*.avi
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Packages
+*.zip
+*.tar.gz
+*.rar
+*.AppImage
+*.deb
+
+# Sensitive data
+.env
+secrets/
+*.key
+*.pem
+
+# Cache
+.cache/
+*.cache

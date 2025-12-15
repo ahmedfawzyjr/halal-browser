@@ -1,0 +1,55 @@
+{
+  "name": "family",
+  "display_name": "وضع العائلة - Family Mode",
+  "age_range": "13+",
+  "icon": "👨‍👩‍👧‍👦",
+  "description": "Balanced filtering for family browsing with moderate restrictions",
+  "rules": {
+    "block_all_images": false,
+    "block_all_videos": false,
+    "nsfw_threshold": 0.6,
+    "whitelist_only": false,
+    "allow_blur": true,
+    "force_safe_search": true,
+    "block_ads": true,
+    "block_popups": true,
+    "time_limits": {
+      "enabled": false,
+      "daily_minutes": null,
+      "allowed_hours": null
+    },
+    "allowed_categories": [
+      "islamic",
+      "education",
+      "news",
+      "technology",
+      "entertainment"
+    ],
+    "blocked_categories": [
+      "adult",
+      "gambling",
+      "alcohol",
+      "dating"
+    ],
+    "parental_controls": {
+      "enabled": true,
+      "log_all_activity": true,
+      "send_alerts": true,
+      "require_password": false,
+      "block_downloads": false,
+      "block_extensions": false
+    },
+    "content_restrictions": {
+      "max_video_length": null,
+      "block_comments": false,
+      "block_chat": false,
+      "block_user_uploads": false
+    }
+  },
+  "ui_settings": {
+    "theme": "default",
+    "show_islamic_widgets": true,
+    "show_prayer_times": true,
+    "homepage": "https://www.google.com"
+  }
+}

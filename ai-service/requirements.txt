@@ -1,0 +1,18 @@
+# Halal Browser AI Service - Python Dependencies
+
+# Core ML/AI
+onnxruntime>=1.16.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Web Framework
+Flask>=3.0.0
+flask-cors>=4.0.0
+
+# NLP (optional, for advanced text analysis)
+# nltk>=3.8.0
+# transformers>=4.35.0
+
+# Utilities
+requests>=2.31.0

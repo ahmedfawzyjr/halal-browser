@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "Halal Browser - Safe/Whitelisted domains",
+  "categories": {
+    "islamic": [
+      "quran.com",
+      "islamqa.info",
+      "islamweb.net",
+      "islamicity.org",
+      "muslimpro.com",
+      "seekersguidance.org",
+      "bayyinah.com"
+    ],
+    "education": [
+      "wikipedia.org",
+      "khanacademy.org",
+      "coursera.org",
+      "edx.org",
+      "udemy.com",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "news": [
+      "bbc.com",
+      "cnn.com",
+      "aljazeera.com",
+      "reuters.com",
+      "apnews.com"
+    ],
+    "technology": [
+      "github.com",
+      "stackoverflow.com",
+      "medium.com",
+      "dev.to"
+    ],
+    "kids": [
+      "pbskids.org",
+      "natgeokids.com",
+      "funbrain.com",
+      "coolmath4kids.com"
+    ]
+  },
+  "notes": [
+    "Whitelist for Kids Mode and School Mode",
+    "Only these domains allowed in strict mode",
+    "Add trusted educational and Islamic sites"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "school",
+  "display_name": "وضع المدرسة/المسجد - School/Masjid Mode",
+  "age_range": "all",
+  "icon": "🕌",
+  "description": "Educational and Islamic content only - maximum restrictions",
+  "rules": {
+    "block_all_images": false,
+    "block_all_videos": true,
+    "nsfw_threshold": 0.4,
+    "whitelist_only": true,
+    "allow_blur": false,
+    "force_safe_search": true,
+    "block_ads": true,
+    "block_popups": true,
+    "time_limits": {
+      "enabled": false,
+      "daily_minutes": null,
+      "allowed_hours": null
+    },
+    "allowed_categories": [
+      "islamic",
+      "education"
+    ],
+    "blocked_categories": [
+      "adult",
+      "gambling",
+      "alcohol",
+      "dating",
+      "social_media",
+      "gaming",
+      "entertainment"
+    ],
+    "parental_controls": {
+      "enabled": true,
+      "log_all_activity": true,
+      "send_alerts": true,
+      "require_password": true,
+      "block_downloads": true,
+      "block_extensions": true
+    },
+    "content_restrictions": {
+      "max_video_length": 1800,
+      "block_comments": true,
+      "block_chat": true,
+      "block_user_uploads": true
+    },
+    "educational_features": {
+      "enabled": true,
+      "focus_mode": true,
+      "block_distractions": true,
+      "study_timer": true
+    }
+  },
+  "ui_settings": {
+    "theme": "islamic",
+    "show_islamic_widgets": true,
+    "show_prayer_times": true,
+    "homepage": "https://quran.com"
+  }
+}

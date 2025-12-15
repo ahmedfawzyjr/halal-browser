@@ -1,0 +1,131 @@
+/**
+ * Halal Content Filter - Content Styles
+ * Styles for blocked and blurred content
+ */
+
+/* Blocked image placeholder */
+.halal-blocked-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 8px;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.halal-blocked-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.halal-icon {
+  font-size: 48px;
+  animation: pulse 2s infinite;
+}
+
+.halal-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.halal-subtext {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Blurred image */
+.halal-blurred-image {
+  filter: blur(20px);
+  transition: filter 0.3s ease;
+}
+
+.halal-blur-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.halal-blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.halal-blur-overlay:hover {
+  opacity: 0.95;
+}
+
+.halal-blur-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.halal-reveal-btn {
+  padding: 8px 16px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.halal-reveal-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .halal-icon {
+    font-size: 36px;
+  }
+  
+  .halal-text {
+    font-size: 16px;
+  }
+  
+  .halal-subtext {
+    font-size: 11px;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] .halal-blocked-content,
+[dir="rtl"] .halal-blur-warning {
+  direction: rtl;
+}

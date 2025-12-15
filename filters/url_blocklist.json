@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "Halal Browser - Blocked domains list",
+  "categories": {
+    "adult": [
+      "pornhub.com",
+      "xvideos.com",
+      "xnxx.com",
+      "redtube.com",
+      "youporn.com",
+      "xhamster.com"
+    ],
+    "gambling": [
+      "bet365.com",
+      "888casino.com",
+      "pokerstars.com",
+      "williamhill.com",
+      "betway.com"
+    ],
+    "alcohol": [
+      "totalwine.com",
+      "wine.com",
+      "drizly.com"
+    ],
+    "dating": [
+      "tinder.com",
+      "match.com",
+      "okcupid.com",
+      "pof.com"
+    ]
+  },
+  "notes": [
+    "This is a sample blocklist",
+    "Add more domains as needed",
+    "Community contributions welcome"
+  ]
+}
