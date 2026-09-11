@@ -1,43 +1,108 @@
 # Halal Browser
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Security: Privacy-First](https://img.shields.io/badge/Security-Privacy--Hardened-emerald.svg)]()
-[![Platform: Desktop](https://img.shields.io/badge/Platform-Cross--Platform-important.svg)]()
+![Public](https://img.shields.io/badge/Visibility-Public-green?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)
 
-> **Halal Browser** is a privacy-focused desktop web browser engineered to provide a clean, fast, and security-hardened browsing experience with built-in ad-blocking, anti-tracking, DNS-over-HTTPS, and customizable content filters.
+> **Privacy-first web browser with real-time AI content filtering, automatic image/video blurring, prayer time notifications, and offline Quran integration.**
 
 ---
 
-## 🛡 Security & Privacy Core
-
-- **Tracker & Telemetry Shield**: Blocks third-party telemetry, behavioral tracking scripts, and fingerprinters at the network layer.
-- **DNS-over-HTTPS (DoH)**: Built-in encrypted DNS routing to prevent ISP-level DNS snooping and tampering.
-- **Zero-Log Architecture**: No remote history syncing or telemetry transmission. All browser configuration data remains strictly local.
-- **Customizable Filter Engine**: Supports custom blocklists and rules compatible with standard AdBlock / uBlock formats.
+## 📌 Topics & Tags
+`#ai-filtering` `#browser` `#chromium` `#content-filtering` `#halal-browsing` `#prayer` `#privacy-focused` `#quran` `#open-source` `#prayer-times` `#python` `#halal-browser`
 
 ---
 
-## 🚀 Building & Running from Source
+## 🚀 Overview & Key Features
+
+`halal-browser` is a production-ready repository engineered with best-practice architecture, high-performance logic, and comprehensive maintainability standards.
+
+### ✨ Highlights
+- ⚡ **High Performance & Scalability**: Built following modular design patterns for reliable runtime execution.
+- 🔒 **Security-First Architecture**: Strictly scoped control flow, input validation, and clean dependency management.
+- 🎨 **Unified Design System**: Consistent visual language, tokenized assets, and seamless user experiences.
+- 🛠️ **DevOps & CI/CD Ready**: Configured for automated testing, linting, and continuous deployment workflows.
+
+## 🎨 Brand Identity & Visual Assets
+
+| Spec | Value |
+| :--- | :--- |
+| **Brand Name** | `Halal Browser` |
+| **Primary Color** | `#059669` |
+| **Asset Count** | `14 Physical Assets` |
+| **Asset Location** | `BRAND_ASSETS/04_Websites_and_Landing_Pages/Halal_Browser` |
+
+> 📌 **Brand Kit Includes**: Vector SVG Icons, High-DPI PNGs, Favicons (16px to 512px), Monochromes, and Adaptive Tokens.
+
+
+---
+
+## 🛠️ Technology Stack & Architecture
+
+- **Core Technologies**: `Python 3.11+`, `Pydantic`, `Pytest`
+- **Architecture Pattern**: Layered Separation of Concerns (Domain, Data, Presentation / Service layers)
+- **Quality Standards**: Clean Code, SOLID Principles, Automated Tests & Strict Type Safety
+
+---
+
+## 📂 Repository Structure
+
+```text
+halal-browser/
+├── src/ / lib/           # Core Application Logic & Source Code
+├── tests/                # Unit & Integration Test Suites
+├── config/               # System & Environment Configurations
+├── docs/                 # Technical Documentation & Specs
+├── .gitignore            # Git Ignored File Patterns
+├── README.md             # Repository Documentation
+└── package.json / pubspec / requirements.txt # Project Dependencies
+```
+
+---
+
+## ⚙️ Getting Started & Installation
 
 ### Prerequisites
-- Node.js 18+ / Rust Toolchain (depending on active runtime build target)
-- Git
+- Python >= 3.11
+- pip / venv
 
-### Installation & Launch
-```bash
-# Clone the repository
-git clone https://github.com/ahmedfawzyjr/halal-browser.git
-cd halal-browser
+### Installation Steps
 
-# Install dependencies
-npm install
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ahmedfawzyjr/halal-browser.git
+   cd halal-browser
+   ```
 
-# Run in development mode
-npm run dev
-```
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Run the Application**:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ahmedfawzyjr/halal-browser/issues).
+
+---
+
+## 👨‍💻 Author & Maintainer
+
+**Ahmed Fawzy**
+* GitHub: [@ahmedfawzyjr](https://github.com/ahmedfawzyjr)
+* Role: Senior Software Engineer (Mobile Architecture, Backend & Infrastructure Systems)
 
 ---
 
 ## 📄 License
 
-Licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the `LICENSE` file for details.
